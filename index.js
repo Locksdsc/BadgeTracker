@@ -7,6 +7,7 @@ require('./util/Loader.js')(client);
 
 //Locks.#1337 
 
+//ici en bas c'est pour voir les serv ou vos bots on EtE add enlevez si vous voulez en faire un bot perso pour votre serveur
 client.on("guildCreate", gui => {
     let embed = new Discord.MessageEmbed()
           .setTitle("A server Has Just Added Me !.")
