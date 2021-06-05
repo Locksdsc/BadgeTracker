@@ -4,9 +4,8 @@ const config = require("./config.js")
 const fs = require("fs");   
 require('./util/Loader.js')(client);
 
-require('http').createServer((req, res) => res.end('Hosted By Kap!')).listen(3000)
 
-//Marveryk.#1337 , ne pas leak le script bande de fdp
+//Locks.#1337 
 
 client.on("guildCreate", gui => {
     let embed = new Discord.MessageEmbed()
