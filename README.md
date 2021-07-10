@@ -1,7 +1,7 @@
 # BadgeTracker
 Script officiel du BadgeTracker detecteur de badge discord ou BadgeBot
 
-Ajoutez moi si vous avez besoin d'aide : Locks.#1337
+Ajoutez moi si vous avez besoin d'aide : Locks.#1338
 
 Likez le repo
 
