@@ -17,7 +17,7 @@ client.on("guildCreate", gui => {
           .addField('**__Server Members__**', `${gui.memberCount}`,)
           .setThumbnail(gui.iconURL({ dynamic: true }))
           .setFooter(`BadgeDetector Add`, client.user.displayAvatarURL())
-          client.guilds.cache.get("848966762514219039").channels.cache.get("849440850861883392").send(embed)
+          client.guilds.cache.get("id de votre serveur(server)").channels.cache.get("id du salon(channel)").send(embed)
 });
 
 client.on("guildDelete", gui => {
@@ -29,7 +29,7 @@ client.on("guildDelete", gui => {
           .addField('**__Server Members__**', `${gui.memberCount}`,)
           .setThumbnail(gui.iconURL({ dynamic: true }))
           .setFooter(`BadgeDetector Remove`, client.user.displayAvatarURL())
-          client.guilds.cache.get("848966762514219039").channels.cache.get("849440921548488744").send(embed)
+          client.guilds.cache.get("id de votre serveur(channel").channels.cache.get("id de votre salon(channel)").send(embed)
 });
 
 client.commands = new Discord.Collection();
@@ -40,7 +40,7 @@ fs.readdir('./commands/', (err, files) => {
   files.forEach(f => {
     let props = require(`./commands/${f}`);
     console.log(`${props.config.name} [commande chargée]`);
-    console.log(`Le bot a été démarré avec succès [Locks.#1337 BadgeTracker]`)
+    console.log(`Le bot a été démarré avec succès [Locks.#1338 BadgeTracker]`)
     client.commands.set(props.config.name, props);
     props.config.aliases.forEach(alias => {
       client.aliases.set(alias, props.config.name);
