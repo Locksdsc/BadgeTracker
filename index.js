@@ -5,7 +5,7 @@ const fs = require("fs");
 require('./util/Loader.js')(client);
 
 
-//Locks.#1337 
+//Kap.#1338 
 
 //ici en bas c'est pour voir les serv ou vos bots on EtE add enlevez si vous voulez en faire un bot perso pour votre serveur
 client.on("guildCreate", gui => {
@@ -40,7 +40,7 @@ fs.readdir('./commands/', (err, files) => {
   files.forEach(f => {
     let props = require(`./commands/${f}`);
     console.log(`${props.config.name} [commande chargée]`);
-    console.log(`Le bot a été démarré avec succès [Locks.#1338 BadgeTracker]`)
+    console.log(`Le bot a été démarré avec succès [Kap.#1338 BadgeTracker]`)
     client.commands.set(props.config.name, props);
     props.config.aliases.forEach(alias => {
       client.aliases.set(alias, props.config.name);
