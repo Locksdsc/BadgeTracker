@@ -1,7 +1,7 @@
 # BadgeTracker
 Script officiel du BadgeTracker detecteur de badge discord ou BadgeBot
 
-Ajoutez moi si vous avez besoin d'aide : Kap.#1338
+Ajoutez moi si vous avez besoin d'aide : Hazard.#1338 or HxHxH#8864
 
 Likez le repo
 
